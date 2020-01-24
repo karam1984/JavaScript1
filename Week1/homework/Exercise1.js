@@ -1,22 +1,22 @@
-let lang ="hello world";
-console.log(lang); //english
-lang = "hello werld";
-console.log(lang); //nederland
-lang = "Բարեւ աշխարհ ";
-console.log(lang); //arminian
-lang = "こんにちは世界"
-console.log(lang); //japanis
-lang = "merhaba dünya"
-console.log(lang); //turkish
-lang = "привет мир" 
-console.log(lang); //russian
-lang = "你好世界"
-console.log(lang); //chainies
-lang = "नमस्ते दुनिया"
-console.log(lang); //hindi
-lang = "γεια κόσμο"
-console.log(lang); //greek
-lang = "hallo κόσμο"
-console.log(lang); //azrabigan
+let  greetingEnglish ="hello world";
+console.log(greetingEnglish); //english
+let greetingNederland = "hello werld";
+console.log(greetingNederland); //nederland
+let greetingArmininan = "Բարեւ աշխարհ ";
+console.log(greetingArmininan); //arminian
+let greetingJpanis = "こんにちは世界"
+console.log(greetingJpanis); //japanis
+let greetingTurkish = "merhaba dünya"
+console.log(greetingTurkish); //turkish
+let greetingussian = "привет мир" 
+console.log(greetingRussian); //russian
+let greetingChainies = "你好世界"
+console.log(greetingChainies); //chainies
+let greetingHindi = "नमस्ते दुनिया"
+console.log(greetingHindi); //hindi
+let greetingGreek = "γεια κόσμο"
+console.log(greetingGreek); //greek
+let greetingAZrabigan = "hallo κόσμο"
+console.log(greetingAZrabigan ); //azrabigan
 
 
