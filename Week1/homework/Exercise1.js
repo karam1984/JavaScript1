@@ -8,7 +8,7 @@ let greetingJpanis = "こんにちは世界"
 console.log(greetingJpanis); //japanis
 let greetingTurkish = "merhaba dünya"
 console.log(greetingTurkish); //turkish
-let greetingussian = "привет мир" 
+let greetingRussian = "привет мир" 
 console.log(greetingRussian); //russian
 let greetingChainies = "你好世界"
 console.log(greetingChainies); //chainies
