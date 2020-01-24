@@ -8,5 +8,7 @@ let  animals = [dog, cat , mouse,]
 console.log(animals);
 animals[animals.length]="Piglet"
 console.log(animals);
+let Piglet = "jack";
+console.log(Piglet);
 
 
