@@ -17,7 +17,7 @@ console.log('')
 
 let hey = 'Hey guys, I brought a '
 for(drink of drinkTray){
-    hey = hey + drink+' ,'
+    hey = hey + drink+' '
 }
 console.log(hey);
 

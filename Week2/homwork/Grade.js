@@ -1,28 +1,28 @@
-function calculateGrade(grade){
-    let g = ''
+function calculateGrade(score){
+    let grade = ''
     switch(true){
-        case (grade >= 90):
-            g='A';
+        case (score >= 90):
+            grade='A';
             break;
-        case (grade >= 80):
-            g='B';
+        case (score >= 80):
+            grade='B';
             break;
-        case (grade >=70):
-            g='C';
+        case (score >=70):           
+            grade='C';
             break;
-        case (grade >=60):
-            g='D';
+        case (score >=60):
+            grade='D';
             break;
-        case (grade >=50):
-            g='E';
+        case (score >=50):
+            grade='E';
             break;
-        case (grade <50):
-            g='F';
+        case (score <50 ):
+            grade='F';
             break;
             
     }
-    return  'you got ' +g+ " (" +grade+ '%)!'
+    return  'you got ' +grade+ " (" +score+ '%)!'
     
 }
 
-console.log(calculateGrade(89));
+console.log(calculateGrade(0));

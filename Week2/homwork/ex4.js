@@ -6,7 +6,8 @@ var books = [
 ];
 
 for(let i = 0; i < books.length; i++){
-    console.log(books[i]);}
+    console.log(books[i]);
+}
 
 console.log('')
 
@@ -17,9 +18,10 @@ console.log('')
 
 for (book of books)
 {
-    if (book.alreadyRead===true){ console.log( 'You still need to read ' +book.title )   
+    if(book.alreadyRead===true){ 
+        console.log('You still need to read '+book.title)   
     } 
-    else  { console.log ( 'You already read ' + book.title)
+    else{ console.log('You already read '+book.title)
     
     } 
 }
